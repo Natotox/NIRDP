@@ -48,11 +48,11 @@
 	box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
 }
 
-.dropdown:hover	.content{
+.dropdown .content:hover{
 	display: block;
 }
 
-.dropdown:hover button{
+.dropdown button:hover{
 	background-color: dodgerblue;
 }
 
