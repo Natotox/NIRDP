@@ -5,6 +5,7 @@
 .navbar{
 	background: lemonchiffon;
 	font-family: calibri;
+	padding-top: 15px;
 	padding-right: 15px;
 	padding-left: 15px;
 }
@@ -19,7 +20,7 @@
 	font-size: 15px;
 	font-family: monospace;
 	font-weight: 600;
-	color: white;
+	color: sienna;
 }
 
 li{
@@ -28,7 +29,7 @@ li{
 }
 
 li a{
-	color: white;
+	color: sienna;
 	font-size: 18px;
 	font-weight: bold;
 	margin-right: 25px;
@@ -46,4 +47,23 @@ button a{
 	color: white;
 	font-weight: bold;
 	font-size: 15px;
+}
+
+.dropdown button{
+	background-color: lemonchiffon;
+	color: sienna;
+	border: none;
+	padding: 15px;
+}
+
+.dropdown a{
+	display: block;
+	color: white;
+}
+
+.dropdown .content{
+	display: none;
+	position: absolute;
+	background-color: deepskyblue;
+	box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
 }
