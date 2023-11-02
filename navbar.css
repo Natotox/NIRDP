@@ -31,7 +31,7 @@
 }
 
 .dropdown button{
-	background-color: lemonchiffon;
+	background-color: deepskyblue;
 	color: sienna;
 	font-weight: bold;
 	margin-right: 10px;
@@ -90,4 +90,8 @@ button a{
 	color: white;
 	font-weight: bold;
 	font-size: 15px;
+}
+
+button:hover{
+	background-color: dodgerblue;
 }
