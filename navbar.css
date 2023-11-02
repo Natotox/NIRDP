@@ -31,15 +31,13 @@
 }
 
 .dropdown button{
-	background-color: deepskyblue;
-	color: sienna;
+	background-color: mediumorchid;
+	color: white;
 	font-weight: bold;
 	margin-right: 10px;
 	border-radius: 10px;
 	padding: 10px;
-	width: 90px;
-	border: none;
-}
+	width: 90px;}
 
 .dropdown a{
 	display: block;
@@ -49,7 +47,7 @@
 .dropdown .content{
 	display: none;
 	position: absolute;
-	background-color: deepskyblue;
+	background-color: mediumorchid;
 	box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
 	width: 100px;
 }
@@ -59,11 +57,11 @@
 }
 
 .dropdown button:hover{
-	background-color: dodgerblue;
+	background-color: darkorchid;
 }
 
 .dropdown a:hover{
-	background-color: dodgerblue;
+	background-color: darkorchid;
 }
 
 li{
