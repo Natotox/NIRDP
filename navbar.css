@@ -46,6 +46,7 @@
 	position: absolute;
 	background-color: deepskyblue;
 	box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+	max-width: 90px;
 }
 
 .dropdown:hover .content{
