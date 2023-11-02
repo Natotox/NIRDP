@@ -5,7 +5,8 @@
 .navbar{
 	background: lemonchiffon;
 	font-family: calibri;
-	padding-top: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	padding-right: 15px;
 	padding-left: 15px;
 }
@@ -21,6 +22,42 @@
 	font-family: monospace;
 	font-weight: 600;
 	color: sienna;
+}
+
+.dropdown{
+	display: inline-block;
+}
+
+.dropdown button{
+	background-color: deepskyblue;
+	margin-left: 10px;
+	border-radius: 10px;
+	padding: 10px;
+	width: 90px;
+}
+
+.dropdown a{
+	display: block;
+	color: white;
+}
+
+.dropdown .content{
+	display: none;
+	position: absolute;
+	background-color: deepskyblue;
+	box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
+}
+
+.dropdown:hover	.content{
+	display: block;
+}
+
+.dropdown:hover button{
+	background-color: dodgerblue;
+}
+
+.dropdown a:hover{
+	background-color: dodgerblue;
 }
 
 li{
@@ -47,24 +84,4 @@ button a{
 	color: white;
 	font-weight: bold;
 	font-size: 15px;
-}
-
-.dropdown button{
-	background-color: deepskyblue;
-	margin-left: 10px;
-	border-radius: 10px;
-	padding: 10px;
-	width: 90px;
-}
-
-.dropdown a{
-	display: block;
-	color: white;
-}
-
-.dropdown .content{
-	display: none;
-	position: absolute;
-	background-color: deepskyblue;
-	box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.8);
 }
