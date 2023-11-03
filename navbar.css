@@ -78,6 +78,10 @@ li a{
 	margin-right: 25px;
 }
 
+li a:hover{
+	color: saddlebrown;
+}
+
 button{
 	background-color: deepskyblue;
 	margin-left: 10px;
