@@ -66,23 +66,23 @@
 	background-color: darkorchid;
 }
 
-li{
+.navbar li{
 	list-style: none;
 	display: inline-block;
 }
 
-li a{
+.navbar li a{
 	color: peru;
 	font-size: 18px;
 	font-weight: bold;
 	margin-right: 25px;
 }
 
-li a:hover{
+.navbar li a:hover{
 	color: saddlebrown;
 }
 
-button{
+.navbar button{
 	background-color: deepskyblue;
 	margin-left: 10px;
 	border-radius: 10px;
@@ -90,12 +90,12 @@ button{
 	width: 90px;
 }
 
-button a{
+.navbar button a{
 	color: white;
 	font-weight: bold;
 	font-size: 15px;
 }
 
-button:hover{
+.navbar button:hover{
 	background-color: dodgerblue;
 }
