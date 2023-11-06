@@ -6,3 +6,6 @@ body{
 	background-size: cover;
 }
 
+li{
+	list-style: square;
+}
