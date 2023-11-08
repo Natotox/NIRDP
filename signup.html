@@ -7,20 +7,19 @@
 </head>
 <body>
 	<main class="wrapper">
-		<form action="">
+		<div id="error"></div>
+		<form action="homepage.html" method="GET">
 			<h1>Sign Up</h1>
 			<div class="input-box">
-				<input type="text" placeholder="Username" required>
+				<input id="username" name="username" type="text" placeholder="Username" required>
 				<i class='bx bxs-user'></i>
 			</div>
 			<div class="input-box">
-				<input type="password" placeholder="Password" required>
+				<input id="password" name="password" type="password" placeholder="Password" required>
 				<i class='bx bxs-lock' ></i>
 			</div>
 
-			<a href="homepage.html">
 			<button type="submit" class="btn">Sign Up</button>
-			</a>
 			
 			<div class="register-link">
 				<p>Already have an account? <a href="login.html">Log In</a></p>
