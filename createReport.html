@@ -10,23 +10,13 @@
 			<nav class="navbar">
 				<div class="navdiv">
 					<div class="logo">
-						<a href="index.html">
+						<a href="homepage.html">
 							NIRDP
 						</a>
 					</div>
 					<li>
 						<a href="homepage.html">
 							Home
-						</a>
-					</li>
-					<li>
-						<a href="about.html">
-							About
-						</a>
-					</li>
-					<li>
-						<a href="contact.html">
-							Contact
 						</a>
 					</li>
 					<div class="dropdown">
@@ -37,21 +27,43 @@
 							<a href="generateReport.html">Generate</a>
 						</div>
 					</div>
-					<button>
-						<a href="">
-							Log In
-						</a>
-					</button>
-					<button>
-						<a href="">
-							Sign Up
-						</a>
-					</button>
 				</div>
 			</nav>
 		</header>
 		<!--End of Navigation Bar-->
 
-		<p>This page is currently under construction</p>
+	<!--Start of Content-->
+	<main>
+		<form>
+			<h1>Create a Report</h1>
+			<input type="text" name="title" placeholder="Title">
+
+			<div>
+				<input type="date" name="date">
+				<input type="time" name="time">
+			</div>
+
+			<div>
+				<input type="text" name="location" placeholder="Location">
+			</div>
+
+			<div>
+				<textarea name="event" cols="50" rows="10" placeholder="Type summary here..."></textarea>
+			</div>
+
+			<div>
+				<h3>Severity</h3>
+				<input type="radio" name="severity">Level 1 - Critical
+				<input type="radio" name="severity">Level 2 - Major
+				<input type="radio" name="severity">Level 3 - Minor
+				<input type="radio" name="severity">Level 4 - Low
+			</div>
+
+			<div>
+				<button type="reset">Clear Form</button>
+				<button type="submit">Submit</button>
+			</div>
+		</form>
+	</main>
 </body>
 </html>
