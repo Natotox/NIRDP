@@ -1,5 +1,5 @@
 *{
-	text-decoration: none;
+	text-decoration: none;  
 }
 
 .navbar{
@@ -10,6 +10,7 @@
 	padding-right: 15px;
 	padding-left: 15px;
 	border-radius: 40px;
+	margin: 10px;
 }
 
 .navdiv{
