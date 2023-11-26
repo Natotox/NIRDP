@@ -8,6 +8,12 @@ body{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	background-color: peru;
+}
+
+header{
+	position: fixed;
+	width: 100%;
 }
 
 .container{
