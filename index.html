@@ -1,6 +1,9 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>NIRDP</title>
 		<link rel="stylesheet" type="text/css" href="navbar.css">
 		<link rel="stylesheet" type="text/css" href="index.css">
@@ -56,7 +59,7 @@
 				</div>
 
 				<div class="find">
-					<h2>Find a Report</h2>
+					<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><h2>Find a Report</h2>
 					<p>Looking for a specific incident? Or just catching up on recent incidents?...</p>
 				</div>
 			</section>
@@ -72,24 +75,19 @@
 			</section>
 
 			<script>
-			    document.addEventListener("DOMContentLoaded", function () {
-			      const sections = document.querySelectorAll('section');
-			      
-			      // Smooth scroll behavior
-			      sections.forEach(section => {
-			        section.addEventListener('click', () => {
-			          section.scrollIntoView({ behavior: 'smooth' });
-			        });
-			      });
+			  document.addEventListener("DOMContentLoaded", function () {
+			    const sections = document.querySelectorAll('section');
 
-			      // Update the scroll-snap-align property on window resize
-			      window.addEventListener('resize', () => {
-			        sections.forEach(section => {
-			          section.style.scrollSnapAlign = 'start';
-			        });
+			    // Update the scroll-snap-align property on window resize
+			    window.addEventListener('resize', () => {
+			      sections.forEach(section => {
+			        section.style.scrollSnapAlign = 'start';
 			      });
 			    });
-			  </script>
+			  });
+			</script>
+
+
 
 		</main>
 	</body>
