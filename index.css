@@ -9,6 +9,8 @@ body{
 	padding: 0;
 	box-sizing: border-box;
 	background-color: peru;
+	overflow-y: scroll;
+	scroll-snap-type: y mandatory;
 }
 
 header{
@@ -24,6 +26,8 @@ header{
 
 .container section{
 	height: 100vh;
+	padding-top: 50px;
+	scroll-snap-align: start;
 }
 
 .container h1{
